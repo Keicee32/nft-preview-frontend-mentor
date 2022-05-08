@@ -40,9 +40,6 @@ h1 {
     box-shadow: 2px 7px 15px black;
 }
 
-.container p {
-    opacity: 0.85;
-}
 
 .container-inner {
     display: flex;
@@ -96,7 +93,7 @@ h1 {
 }
 
 span {
-    color: hsl(0, 0%, 100%);
+    color: #fff;
 }
 
 h1, 
