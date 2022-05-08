@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: hsl(217, 54%, 11%);
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    /* font-weight: 300; */
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0;
+    margin-top: 1em;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container, 
+.ethereum-image {
+    border-radius: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 300px;
+    background: hsl(216, 50%, 16%);
+    margin: 50px auto 25px;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    box-shadow: 2px 7px 15px black;
+}
+
+.container p {
+    opacity: 0.85;
+}
+
+.container-inner {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 1em;
+    /* color:  */
+}
+
+.container-inner-first,
+.container-inner-second {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.container-inner-first {
+    color: hsl(178, 100%, 50%);
+}
+
+.ethereum-image {
+    order: -2;
+}
+
+.ethereum-icon {
+    width: 15px;
+}
+
+.clock {
+    width: 20px;
+}
+
+.clock,
+.ethereum-icon {
+    padding-right: 4px;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 0.8em;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
+
+h1, 
+span {
+    letter-spacing: 1px;
+    transition: letter-spacing .3s ease-in-out;
+}
+
+span:hover,
+span:focus,
+h1:hover,
+h1:focus {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.ethereum-image:hover {
+    cursor: pointer;
+
+}
