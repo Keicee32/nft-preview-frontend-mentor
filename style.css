@@ -61,8 +61,24 @@ h1 {
     color: hsl(178, 100%, 50%);
 }
 
-.ethereum-image {
+.image-overlay-container {
     order: -2;
+    flex-basis: 250px;
+    background-image: url('./images/image-equilibrium.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image-overlay-container:hover .overlay {
+    background-color: hsla(178, 100%, 50%, 0.5);
+    background-image: url('./images/icon-view.svg');
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 .ethereum-icon {
@@ -109,9 +125,4 @@ h1:focus {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
     letter-spacing: 2px;
-}
-
-.ethereum-image:hover {
-    cursor: pointer;
-
 }
