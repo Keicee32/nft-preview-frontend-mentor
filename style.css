@@ -72,7 +72,8 @@ h1 {
     cursor: pointer;
 }
 
-.image-overlay-container:hover .overlay {
+.image-overlay-container:hover .overlay,
+.image-overlay-container:focus .overlay {
     background-color: hsla(178, 100%, 50%, 0.5);
     background-image: url('./images/icon-view.svg');
     height: 250px;
